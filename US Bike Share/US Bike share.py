@@ -54,7 +54,9 @@ def get_filters():
         
         city = input("Choose the city (chicago, new york city, washington): ").lower()
         if city not in CITY_DATA:
+	    Print("Please enter the city name as specified")
             continue
+	    
         break
         
 
